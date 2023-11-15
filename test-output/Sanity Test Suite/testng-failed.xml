@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Sanity Test Suite]">
+  <test thread-count="5" name="Release 2023.5 Sanity Testing(failed)">
+    <classes>
+      <class name="com.testNg.com.testNg_test.BeforeAfterMethod">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="verifyPageTitle2"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.testNg.com.testNg_test.BeforeAfterMethod -->
+      <class name="com.testNg.com.testNg_test.Ebay_Home_Sanity">
+        <methods>
+          <include name="afterClassSetup"/>
+          <include name="beforeClassSetup"/>
+          <include name="empty_search_test_softassert"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.testNg.com.testNg_test.Ebay_Home_Sanity -->
+    </classes>
+  </test> <!-- Release 2023.5 Sanity Testing(failed) -->
+</suite> <!-- Failed suite [Sanity Test Suite] -->

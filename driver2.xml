@@ -1,0 +1,15 @@
+
+<suite name="Include Exclude Method TestSuite">
+  <test name="Include Exclude Test">
+    <classes>
+      <class name="com.testNg.com.testNg_test.BeforeAfterMethod"/>
+          <methods>
+			  <include name="verifyPageTitle1"/>
+		  </methods>
+      <class name="com.testNg.com.testNg_test.Ebay_Home_Sanity"/>
+                <methods>
+			  <exclude name="empty_search_test_softassert"/>
+		  </methods>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

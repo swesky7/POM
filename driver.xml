@@ -1,0 +1,9 @@
+
+<suite name="Sanity Test Suite">
+  <test name="Release 2023.5 Sanity Testing">
+    <classes>
+      <class name="com.testNg.com.testNg_test.BeforeAfterMethod"/>
+      <class name="com.testNg.com.testNg_test.Ebay_Home_Sanity"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
